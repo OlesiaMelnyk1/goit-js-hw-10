@@ -1,7 +1,7 @@
+import './css/styles.css';
 import { fetchCountries } from './js/fetchCountries';
 import { countryCard } from './js/countryCard';
 import { countriesList } from './js/countriesList';
-import './css/styles.css';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
 
